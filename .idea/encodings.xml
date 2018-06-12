@@ -3,10 +3,22 @@
   <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sa" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa-04-filter-type" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sa/sa-02-configuration" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-03-componentscan" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-04-filterType" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-05-scope" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-06-lazyBean" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-07-conditional" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-08-import" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-08-import-selectors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-09-import-selectors" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-10-beanregister" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sa/sa-11-factorybean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sx" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sx/sx-02-xmlbean" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/sx/sx-02-xmlfile" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/sx/sx-03-compentscan" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

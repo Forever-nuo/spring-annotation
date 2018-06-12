@@ -8,17 +8,23 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="sa-02-configuration" />
+        <module name="sa-03-componentscan" />
+        <module name="sa-04-filterType" />
+        <module name="sa-05-scope" />
+        <module name="sa-06-lazyBean" />
+        <module name="sa-07-conditional" />
+        <module name="sa-08-import" />
+        <module name="sa-09-import-selectors" />
+        <module name="sa-10-beanregister" />
+        <module name="sa-11-factorybean" />
         <module name="sx-02-xmlbean" />
         <module name="sx-02-xmlfile" />
+        <module name="sx-03-compentscan" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="sa" target="1.8" />
-      <module name="sa-02-configuration" target="1.8" />
-      <module name="spring-annotation" target="1.8" />
-      <module name="sx" target="1.8" />
-      <module name="sx-02-xmlbean" target="1.8" />
-      <module name="sx-02-xmlfile" target="1.8" />
+      <module name="sa-04-filter-type" target="1.8" />
+      <module name="sa-04-TypeFilter" target="1.5" />
     </bytecodeTargetLevel>
   </component>
 </project>

@@ -13,6 +13,15 @@
     <packaging>pom</packaging>
     <modules>
         <module>sa-02-configuration</module>
+        <module>sa-03-componentscan</module>
+        <module>sa-04-filterType</module>
+        <module>sa-05-scope</module>
+        <module>sa-06-lazyBean</module>
+        <module>sa-07-conditional</module>
+        <module>sa-08-import</module>
+        <module>sa-09-import-selectors</module>
+        <module>sa-10-beanregister</module>
+        <module>sa-11-factorybean</module>
     </modules>
 
 
