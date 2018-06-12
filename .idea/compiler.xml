@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="sa-02-configuration" />
+        <module name="sx-02-xmlbean" />
+        <module name="sx-02-xmlfile" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="sa" target="1.8" />
+      <module name="sa-02-configuration" target="1.8" />
+      <module name="spring-annotation" target="1.8" />
+      <module name="sx" target="1.8" />
+      <module name="sx-02-xmlbean" target="1.8" />
+      <module name="sx-02-xmlfile" target="1.8" />
+    </bytecodeTargetLevel>
+  </component>
+</project>
