@@ -1,9 +1,10 @@
 package com.forever.sx;
 
-import com.forever.sx.property.model.Person;
+import com.forever.sx.model.Person;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
  * @author: Forever丶诺
@@ -15,6 +16,7 @@ public class MainTest {
     @Test
     public void test() {
         Person bean = context.getBean(Person.class);
+
         System.out.println(bean);
     }
 }

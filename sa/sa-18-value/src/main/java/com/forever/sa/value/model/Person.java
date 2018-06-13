@@ -1,7 +1,9 @@
 package com.forever.sa.value.model;
 
 import lombok.Data;
+import lombok.experimental.Accessors;
 import lombok.extern.slf4j.Slf4j;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
 
 /**
@@ -10,6 +12,7 @@ import org.springframework.beans.factory.annotation.Value;
  */
 @Data
 @Slf4j
+@Accessors(chain = true)
 public class Person {
 
     /**

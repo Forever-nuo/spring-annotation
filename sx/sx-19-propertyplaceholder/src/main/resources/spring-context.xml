@@ -11,10 +11,14 @@
     -->
     <context:component-scan base-package="com.forever"/>
 
+    <!--
+    引入资源文件
+    -->
+    <context:property-placeholder location="classpath:person.properties" />
 
-    <bean id="person" class="com.forever.sx.value.model.Person">
+    <bean id="person" class="com.forever.sx.model.Person">
         <property name="name" value="张三"/>
         <property name="age" value="15"/>
-        <property name="height" value="${age}"/>
+        <property name="height" value="${person.height}"/>
     </bean>
 </beans>

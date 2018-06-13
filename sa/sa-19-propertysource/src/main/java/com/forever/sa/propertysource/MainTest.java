@@ -6,6 +6,7 @@ import com.forever.sa.propertysource.model.Person;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Test;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+import org.springframework.core.env.ConfigurableEnvironment;
 
 /**
  * @author: Forever丶诺
@@ -18,6 +19,13 @@ public class MainTest {
 
     @Test
     public void testBean() {
+        /**
+         * 获取配置环境中的值
+         */
+        ConfigurableEnvironment environment = context.getEnvironment();
+        String property = environment.getProperty("person.height");
+        System.out.println(property);
+
         Person bean = context.getBean(Person.class);
         System.out.println(bean);
     }
