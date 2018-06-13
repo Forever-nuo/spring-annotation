@@ -11,6 +11,9 @@
       <set>
         <option value="$PROJECT_DIR$/sa-02-configuration/pom.xml" />
         <option value="$PROJECT_DIR$/sa-04-filter-type/pom.xml" />
+        <option value="$PROJECT_DIR$/sa/sa-14-bean-jsr/pom.xml" />
+        <option value="$PROJECT_DIR$/sa/sa12beaninitdestroy/pom.xml" />
+        <option value="$PROJECT_DIR$/sa12beaninitdestroy/pom.xml" />
       </set>
     </option>
   </component>

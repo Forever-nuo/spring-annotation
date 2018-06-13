@@ -15,6 +15,9 @@
         <module>sx-02-xmlfile</module>
         <module>sx-02-xmlbean</module>
         <module>sx-03-compentscan</module>
+        <module>sx-12-beaninitxml</module>
+        <module>sx-18-value</module>
+        <module>sx-19-propertyplaceholder</module>
     </modules>
 
 
