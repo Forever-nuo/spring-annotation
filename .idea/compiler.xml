@@ -31,6 +31,7 @@
         <module name="sa-23-aware" />
         <module name="sa-24-profile" />
         <module name="sa-27-aop" />
+        <module name="sa-36-tx" />
         <module name="sx-02-xmlbean" />
         <module name="sx-02-xmlfile" />
         <module name="sx-03-compentscan" />
