@@ -33,6 +33,7 @@
         <module>sa-22-autowiredlocation</module>
         <module>sa-23-aware</module>
         <module>sa-24-profile</module>
+        <module>sa-27-aop</module>
     </modules>
 
 

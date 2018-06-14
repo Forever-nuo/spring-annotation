@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:p="http://www.springframework.org/schema/p"
+       xmlns:aop="http://www.springframework.org/schema/aop"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+       http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/context
+       http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/aop
+       http://www.springframework.org/schema/aop/spring-aop.xsd
+       http://www.springframework.org/schema/cache
+       http://www.springframework.org/schema/cache/spring-cache.xsd
+">
+
+
+    <!--
+    目标类放入到spring容器中
+    -->
+    <bean id="mathDivision" class="com.forever.sa.aop.target.MathDivision"/>
+
+    <!--
+    切面类放入到Spring容器中
+    -->
+    <bean id="logAspect" class="com.forever.sa.aop.aspect.LogAspect"/>
+
+
+    <!--
+    配置Aop
+    -->
+   <aop:config>
+       <aop:pointcut id="pointCut" expression="execution (public int com.forever.sa.aop.target.MathDivision.div(..))"></aop:pointcut>
+       <aop:aspect id="" ref="logAspect">
+           <aop:before method="beforeMethod"
+                       pointcut="execution (public int com.forever.sa.aop.target.MathDivision.div(..))"/>
+           <aop:after method="afterMethod" pointcut-ref="pointCut"/>
+           <aop:after-returning method="afterReturnMethod" pointcut-ref="pointCut" returning="result"/>
+            <aop:after-throwing method="afterThrowing" pointcut-ref="pointCut" throwing="ex"/>
+       </aop:aspect>
+   </aop:config>
+
+
+</beans>

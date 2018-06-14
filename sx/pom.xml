@@ -18,6 +18,7 @@
         <module>sx-12-beaninitxml</module>
         <module>sx-18-value</module>
         <module>sx-19-propertyplaceholder</module>
+        <module>sx-27-aop</module>
     </modules>
 
 
