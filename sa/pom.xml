@@ -35,6 +35,14 @@
         <module>sa-24-profile</module>
         <module>sa-27-aop</module>
         <module>sa-36-tx</module>
+        <module>sa-39-bfpp</module>
+        <module>sa-40-bdfpp</module>
+        <module>sa-41-applistener</module>
+        <module>sa-53-servlet</module>
+        <module>sa-54-sci</module>
+        <module>sa-55-src</module>
+        <module>sa-57-smvc</module>
+        <module>sa-58-mvc-config</module>
     </modules>
 
 

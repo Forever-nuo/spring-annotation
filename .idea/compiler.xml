@@ -32,6 +32,14 @@
         <module name="sa-24-profile" />
         <module name="sa-27-aop" />
         <module name="sa-36-tx" />
+        <module name="sa-39-bfpp" />
+        <module name="sa-40-bdfpp" />
+        <module name="sa-41-applistener" />
+        <module name="sa-53-servlet" />
+        <module name="sa-54-sci" />
+        <module name="sa-55-src" />
+        <module name="sa-57-smvc" />
+        <module name="sa-58-mvc-config" />
         <module name="sx-02-xmlbean" />
         <module name="sx-02-xmlfile" />
         <module name="sx-03-compentscan" />
@@ -46,6 +54,7 @@
       <module name="sa-04-filter-type" target="1.8" />
       <module name="sa-04-TypeFilter" target="1.5" />
       <module name="sa-14-bean-jsr" target="1.8" />
+      <module name="sa-53-servlet3" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

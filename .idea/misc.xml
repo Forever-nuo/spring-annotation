@@ -12,12 +12,13 @@
         <option value="$PROJECT_DIR$/sa-02-configuration/pom.xml" />
         <option value="$PROJECT_DIR$/sa-04-filter-type/pom.xml" />
         <option value="$PROJECT_DIR$/sa/sa-14-bean-jsr/pom.xml" />
+        <option value="$PROJECT_DIR$/sa/sa-53-servlet3/pom.xml" />
         <option value="$PROJECT_DIR$/sa/sa12beaninitdestroy/pom.xml" />
         <option value="$PROJECT_DIR$/sa12beaninitdestroy/pom.xml" />
       </set>
     </option>
   </component>
-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8 (1)" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />
   </component>
 </project>

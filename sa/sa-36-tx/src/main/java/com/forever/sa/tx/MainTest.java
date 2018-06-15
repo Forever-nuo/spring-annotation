@@ -1,6 +1,8 @@
 package com.forever.sa.tx;
 
 import org.junit.Test;
+import org.springframework.aop.aspectj.annotation.BeanFactoryAspectJAdvisorsBuilder;
+import org.springframework.beans.factory.config.BeanFactoryPostProcessor;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
@@ -12,6 +14,7 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 public class MainTest {
     @Test
     public void test() {
+
         AnnotationConfigApplicationContext context = new AnnotationConfigApplicationContext(MainConfig.class);
         PersonService personService = context.getBean(PersonService.class);
         personService.insertPerson();
