@@ -40,6 +40,9 @@
         <module name="sa-55-src" />
         <module name="sa-57-smvc" />
         <module name="sa-58-mvc-config" />
+        <module name="sa-59-ansy-servlet" />
+        <module name="sa-60-mvc-callable" />
+        <module name="sa-61-mvc-DeferredResult" />
         <module name="sx-02-xmlbean" />
         <module name="sx-02-xmlfile" />
         <module name="sx-03-compentscan" />

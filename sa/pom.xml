@@ -43,6 +43,9 @@
         <module>sa-55-src</module>
         <module>sa-57-smvc</module>
         <module>sa-58-mvc-config</module>
+        <module>sa-60-mvc-callable</module>
+        <module>sa-61-mvc-DeferredResult</module>
+        <module>sa-59-ansy-servlet</module>
     </modules>
 
 

@@ -1,11 +1,11 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="sa-57-smvc:Web exploded">
-    <output-path>$PROJECT_DIR$/sa/sa-57-smvc/target</output-path>
+  <artifact type="exploded-war" name="sa-60-mvc-callable:Web exploded">
+    <output-path>$PROJECT_DIR$/out/artifacts/sa_60_mvc_callable_Web_exploded</output-path>
     <root id="root">
-      <element id="javaee-facet-resources" facet="sa-57-smvc/web/Web" />
+      <element id="javaee-facet-resources" facet="sa-60-mvc-callable/web/Web" />
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">
-          <element id="module-output" name="sa-57-smvc" />
+          <element id="module-output" name="sa-60-mvc-callable" />
         </element>
         <element id="directory" name="lib">
           <element id="library" level="project" name="Maven: org.springframework:spring-context-support:4.3.12.RELEASE" />
